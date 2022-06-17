@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div className='date-wrapper'>
+    <h6 className='date'>18th </h6>
+    <h7 className='date-1'>June,2022</h7>
+    </div>
+    
+      <div className='list'>
+      <h2 classname="heading"> My <span id='myspan'>To</span>-Do List</h2>
+      </div>
+      
     </div>
   );
 }
