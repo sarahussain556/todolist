@@ -39,6 +39,10 @@ margin-top: 50px;
 .sub-heading{
   color: #E33E5A;
 }
+.wholelist-wrapper{
+  display: flex;
+  flex-direction: column;
+}
 .searchbox{
 margin-left: 22px;
 margin-top: 15px;
@@ -49,4 +53,27 @@ background: #FFFFFF 0% 0% no-repeat padding-box;
 border: 0.5px solid #C9C9C9;
 border-radius: 10px;
 opacity: 1;
+}
+.input-wrapper{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+
+}
+.buttonbox{
+
+width: 30px;
+/* UI Properties */
+text-align: left;
+background-color: #FFFFFF;
+letter-spacing: 0px;
+border:  #FFFFFF;
+
+
+}
+.buttontext{
+  color: #1F4068;
+opacity: 1;
+font: normal normal normal 13px/18px Nunito Sans;
+font-size:15px ;
 }
