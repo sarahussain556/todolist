@@ -1,20 +1,19 @@
 
 import './App.css';
+import List from './Components/List';
+import RightBar from './Components/RightBar';
+import ShowDate from './Components/ShowDate';
 
 function App() {
   return (
     <div className="App">
 
-    <div className='date-wrapper'>
-    <h6 className='date'>18th </h6>
-    <h7 className='date-1'>June,2022</h7>
+    <ShowDate/>
+    <List/>
+    <RightBar/>
+
     </div>
-    
-      <div className='list'>
-      <h2 classname="heading"> My <span id='myspan'>To</span>-Do List</h2>
-      </div>
-      
-    </div>
+  
   );
 }
 
